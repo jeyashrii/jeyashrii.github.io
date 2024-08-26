@@ -54,13 +54,14 @@ body {
   background-size: 4rem 4rem;
   background-image: linear-gradient(
       to right,
-      lightgrey 0.3px,
-      transparent 0.4px
+      lightgrey 0.7px,
+      transparent 0.7px
     ),
-    linear-gradient(to bottom, lightgrey 0.3px, transparent 0.4px);
+    linear-gradient(to bottom, lightgrey 0.7px, transparent 0.7px);
   background-color: #f8f8f8; /* Slightly duller white */
   background-attachment: fixed; /* Keeps the background fixed when resizing */
 }
+
 .section {
   padding: 4.8rem 2rem;
 }
