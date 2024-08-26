@@ -11,6 +11,7 @@ function renderProjects() {
         <p class="project-description">${project.description}</p>
     </div>
     <div class="right">
+    <a>Live Link</a>
     <a>Go to Repository</a>
     
     </div>
