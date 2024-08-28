@@ -22,10 +22,3 @@
     gap: 2rem;
   }
 }
-
-@media (max-width: 23em) {
-  .section {
-    padding: 4.8rem 1rem; /* Reduce padding on smaller screens */
-    width: 90%;
-  }
-}

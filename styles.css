@@ -16,6 +16,11 @@
   font-size: 1.2rem;
   font-weight: 500;
 }
+.nav-list .list-item a {
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Inherits color from parent */
+  font-weight: bold; /* Makes the link bold */
+}
 .list-item:hover {
   cursor: pointer;
 }
@@ -105,6 +110,8 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 .work-heading span {
   background-color: black;
@@ -184,4 +191,8 @@
 .footer {
   text-align: center;
   padding: 4.8rem 2rem;
+}
+.project-link {
+  text-decoration: none;
+  color: inherit;
 }

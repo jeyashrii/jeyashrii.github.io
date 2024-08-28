@@ -5,14 +5,18 @@ function renderProjects() {
   work.innerHTML = projects
     .map((project, index) => {
       const isLast = index === projects.length - 1;
+      const liveLinkHTML =
+        project.liveLink && project.liveLink !== "#"
+          ? `<a class="project-link" href="${project.liveLink}">Live Link</a>`
+          : "";
 
       return `<div class="project">
     <div class="left"><h2 class="project-title">${project.title}</h2>
         <p class="project-description">${project.description}</p>
     </div>
     <div class="right">
-    <a>Live Link</a>
-    <a>Go to Repository</a>
+     ${liveLinkHTML}
+    <a class="project-link"  href=${project.githubLink}>Go to Repository</a>
     
     </div>
 
